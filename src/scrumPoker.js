@@ -6,7 +6,7 @@ class ScrumPoker extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      cards: [1, 2, 3, 5, 8, 13, 21]
+      cards: [1, 2, 3, 5, 8, 13, 21, coffeSymbol]
     };
   }
   render() {
@@ -16,5 +16,7 @@ class ScrumPoker extends React.Component {
     return <div className="cards">{cardsDom}</div>;
   }
 }
+
+const coffeSymbol = "\u{2615}";
 
 export default ScrumPoker;
