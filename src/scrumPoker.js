@@ -17,6 +17,6 @@ class ScrumPoker extends React.Component {
   }
 }
 
-const coffeSymbol = "\u{2615}";
+const coffeSymbol = "☕";
 
 export default ScrumPoker;
