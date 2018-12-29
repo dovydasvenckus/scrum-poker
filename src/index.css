@@ -18,7 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   border: solid;
-  border-width: 10px;
+  border-width: 1vh;
   border-color: white;
 }
 
@@ -34,7 +34,6 @@ body {
   color: white;
   text-decoration: none;
 }
-
 
 .activeCard {
   width: 90%;
