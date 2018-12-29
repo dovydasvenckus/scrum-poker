@@ -1,3 +1,7 @@
+body {
+  background-color: #252827;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, 400px);
@@ -7,17 +11,25 @@
 }
 
 .card {
-  border-style: solid;
+  border-radius: 25px;
+  background-color: #00a04a;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 25px;
 }
 
 .card > p {
   text-align: center;
   font-size: 10vh;
   font-weight: bold;
+
+  color: white;
+}
+
+.card > p > a {
+  color: white;
+  text-decoration: none;
 }
 
 
@@ -28,13 +40,6 @@
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: 25px;
-  border-style: solid;
 }
 
 .activeCard > p {

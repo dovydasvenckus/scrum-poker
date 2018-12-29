@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Card from "./card";
 
 class ScrumPoker extends React.Component {
