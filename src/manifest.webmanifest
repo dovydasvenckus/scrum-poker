@@ -1,7 +1,6 @@
 {
-    "short_name": "Scrum poker",
-    "name": "Scrum poker",
-    "start_url": "/index.html",
-    "display": "standalone"
-  }
-  
+  "short_name": "Scrum poker",
+  "name": "Scrum poker",
+  "start_url": "/index.html",
+  "display": "standalone"
+}
