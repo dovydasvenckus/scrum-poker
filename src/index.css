@@ -5,7 +5,7 @@ body {
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, 400px);
-  grid-template-rows: repeat(4, 550px);
+  grid-template-rows: repeat(4, auto-fit);
   grid-gap: 30px;
   justify-content: center;
 }
