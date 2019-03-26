@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import {Link} from 'react-router-dom';
 
 const ActiveCard = props => {
   return (
     <div className="card activeCard">
-      <p>{props.match.params.id}</p>
+      <p><Link to="/">{props.match.params.id}</Link></p>
     </div>
   );
 };
