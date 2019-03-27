@@ -2,10 +2,11 @@ import React from "react";
 import Card from "./card";
 
 class ScrumPoker extends React.Component {
+  
   constructor(props) {
     super(props);
     this.state = {
-      cards: [1, 2, 3, 5, 8, 13, 21, coffeSymbol]
+      cards: ['0.5', '1', '2', '3', '5', '8', '13', '21', 'coffee']
     };
   }
   render() {
@@ -15,7 +16,4 @@ class ScrumPoker extends React.Component {
     return <div className="cards">{cardsDom}</div>;
   }
 }
-
-const coffeSymbol = "☕";
-
 export default ScrumPoker;
