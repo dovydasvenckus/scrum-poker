@@ -6,7 +6,7 @@ class ScrumPoker extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      cards: ['0.5', '1', '2', '3', '5', '8', '13', '21', 'coffee']
+      cards: ['0.5', '1', '2', '3', '5', '8', '13', '21', 'coffee', 'kebab']
     };
   }
   render() {

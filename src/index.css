@@ -49,3 +49,11 @@ body {
   font-size: 25vh;
   font-weight: bold;
 }
+
+.card img {
+  width: 10vh;
+}
+
+.activeCard img {
+  width: 75vh;
+}
