@@ -33,6 +33,7 @@ body {
 .card > p > a {
   color: white;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .activeCard {
